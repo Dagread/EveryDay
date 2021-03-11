@@ -1,0 +1,34 @@
+Basically the concept is very easy, so let me explain:
+
+Introduction:
+We have ratio 70% and 30%
+But it only works for to objects, but what if we had more?
+
+At this point, we can approach to the answer in two different ways:
+1. We have 70% and 30%, right? So lets take the biggest one and split it in 70% and 30%.
+Now we have 49%, 30% and 21%, so lets once again take the biggest one and split it in 70% and 30%.
+Now we have 34.4%, 30%, 21% and 14.7%
+etc.
+Was pretty easy, am I right?
+But, in this case we can see that they are becoming approximately equal pretty fast, and that's the problem.
+
+2. We have 70% and 30%. Lets take the smallest one and split it in 70% and 30%.
+Now we have 70%, 21% and 9%, once again.
+Now we have 70%, 21%, 6.3% and 2.7%.
+etc.
+Again, easy, BUT
+Now we can see that it is belong small too fast and very soon we will reach 0.
+
+How can we fix it?
+One of the solution that I came up with is to take average between both of them.
+So, such as, first we have:
+70%, 30%, lets split them
+now we have:
+[1]: 49% ; 70%
+[2]: 30% ; 21%
+[3]: 21% ; 9%
+
+Average between corresponding by index numbers will be:
+59.5%, 25.5% and 15%
+And now we can see both distribution and domination,
+So as for me, it's perfect solution to this problem.
