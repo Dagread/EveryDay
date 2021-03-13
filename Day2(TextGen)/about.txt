@@ -1,0 +1,23 @@
+So, Text Generator.
+You may ask, "How are you going to generate text?",
+My answer is very easy, so let's say we have 1D array.
+It invovles index and value, and lets say we have alphabet, what if indexes where referencing to character code,
+that way, what value should reference to? In my opinion it should reference to probability of that character being used.
+It looks something like this:
+| A | B | C | D | E | F | G | H | I |...| X | Y | Z |
+| 4%| 3%| 4%| 2%| 5%| 2%| 1%| 2%| 3%|...| 4%| 1%| 2%|
+
+BUT, what if we took 2D array? First of all, let's change system and instead of looking at one character we will look at two neighbours,
+
+So not:
+Hello world
+  ^
+  x
+
+But:
+Hello world
+  ^^
+  xy
+
+And now we can look at first character as X coordinate and second as Y coordinate.
+As you can see, we can expand it as many dimensions as we want, but i'll take 4, take it or leave it.
