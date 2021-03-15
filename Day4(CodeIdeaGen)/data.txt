@@ -1,0 +1,66 @@
+~task
+calculate [math]
+create a [tool]
+~end
+
+~tool
+clone of [product] as if [target] would do it
+[thing] for [target]
+~end
+
+~target
+programmers
+boys
+girls
+babys
+aged
+
+~end
+
+~thing
+calculator app
+notes app
+drawing app
+reminder app
+~end
+
+~product
+twitter
+instagram
+github
+youtube
+telegram
+~end
+
+~template
+You need to [task] using [hard] way
+[task] in [style] style
+~end
+
+~style
+dark
+light
+baby
+abstract
+fairy tale
+simple
+very detailed
+~end
+
+~math
+Pi
+E
+Phi
+Root of 2
+~end
+
+~hard
+very easy
+easy
+normal
+hard
+very hard
+insane
+unbelievable
+inefficient
+~end

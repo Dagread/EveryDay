@@ -1,0 +1,5 @@
+So, I think it's not a secret that I am busy with stuDYING,
+and I don't have much time. That's why I made algorythm that will come up with ideas for my future projects!
+How it works? Well, it takes random pattern, then raplaces all words in [] with random object from corresponding class.
+And it repeats untill all [] are gone (I thought 10 will be enough).
+That's all, see ya tomorrow!
